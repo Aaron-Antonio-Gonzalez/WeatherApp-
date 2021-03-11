@@ -7,6 +7,7 @@ $('#search-value').val()
 $('#search-button').on('click', function(){
     var value = $('#search-value').val()
     var url = `https://api.openweathermap.org/data/2.5/weather?q=${value}&appid=0999012505c70063fa49b0065ca2b4d3`
+    var city = `https://api.openweathermap.org/data/2.5/forecast?q=${value}&appid=0999012505c70063fa49b0065ca2b4d3`
    
     
     
